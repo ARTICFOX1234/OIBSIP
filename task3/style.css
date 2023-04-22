@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    height: 105%;
+}
+
+body{
+    
+    background-image: url(thermo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+form{
+    position: relative;
+    top: 47px;
+    height: 158px;
+    
+}
+
+
+label{
+    position: relative;
+    top: -27px;
+    left: 40px;
+    font-size: 21px;
+    background: goldenrod;
+    padding: 6px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.container{
+    margin: 69px;
+    padding: 26px;
+    position: relative;
+    top: 9rem;
+    left: 21rem;
+    width: 403px;
+    display: inline-block;
+    height: 215px;
+    background-image: url(temp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 9px solid rgb(41, 27, 27);
+    border-radius: 8px;
+}
+
+#temp{
+    position: relative;
+    width: 6rem;
+    height: 33px;
+    font-size: large;
+    top: 6px;
+    left: 64px;
+    padding-left: 14px;
+    background-color: rgb(73, 107, 73);
+    border: 1px solid greenyellow;
+    border-radius: 8px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-family: 'Sarabun', sans-serif;
+}
+#temp:focus{
+    background-color: rgb(73, 107, 73);
+
+    border: 1px solid greenyellow;
+
+}
+
+
+#temp_diff{
+    position: relative;
+    left: 82px;
+    top:6px;
+    width: 119px;
+    height: 2rem;
+    font-size: large;
+    cursor: pointer;
+    border: 1px solid rgb(24, 56, 16);
+    border-radius: 8px;
+    background-color: rgb(223, 220, 57);
+    color: rgb(80, 33, 77);
+    font-family: 'Sarabun', sans-serif;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+#temp_diff:focus{
+    background: rgb(223, 220, 57);
+    border: 1px solid rgb(28, 44, 3);
+
+}
+#submit{
+    position: relative;
+    left: 64px;
+    top: 25px;
+    width: 90px;
+    height: 2rem;
+    font-size: large;
+    cursor: pointer;
+    font-family: 'Sarabun', sans-serif;
+    background: gold;
+    text-align: center;
+    border: 1px solid rgb(24, 56, 16);
+    border-radius: 8px;
+}
+#submit:active {
+    transform: translateY(3px);
+}
+
+#result{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 30px;
+    color: rgb(15, 14, 10);
+    
+    
+}
